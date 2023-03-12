@@ -1,6 +1,21 @@
-let userName  = 'Krishnam Upadhyay';
-console.log(userName);
-let a :number = 12
-let b:string ='5'
-let c:number = 2
-console.log(a/b);f
+let myName:string;
+myName='Krishnam';
+
+let meaningOfLife:number;
+let isLoading:boolean;
+let album:any;
+
+myName = 'Krishnam'
+meaningOfLife = 42;
+isLoading= false;
+
+album = 'Krishnam';
+
+const sum = (a:number,b:string)=>{
+    return a+b;
+}
+
+let postId:string |number;
+let isActive:number | boolean;
+let re:RegExp=/\w+/g;
+
